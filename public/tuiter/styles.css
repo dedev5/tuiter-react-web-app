@@ -1,0 +1,51 @@
+.wd-body {
+    background-color: black;
+    max-width: 600px;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    font-family: sans-serif;
+
+}
+
+.wd-shift-from-left{
+    left: 16px;
+    position: relative;
+    color: white;
+}
+
+.wd-round-corners {
+    border-radius: 10px;
+}
+
+
+
+
+
+.wd-grey {
+    color: rgb(110, 118, 125);
+}
+
+.wd-dark-grey {
+    color: rgb(47, 51, 54);
+}
+
+.wd-border-grey {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54)
+}
+
+.wd-col-left {
+    float: left;
+}
+
+.wd-clear {
+    clear: both;
+    position: relative;
+}
+
+.wd-col-left1 {
+    float: left;
+    width: 25%;
+}

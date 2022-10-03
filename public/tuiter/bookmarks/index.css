@@ -1,0 +1,96 @@
+.wd-title {
+    font-size: 20px;
+    color: white;
+}
+
+.wd-subtitle {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-text {
+    font-size: 12px;
+    color: white;
+    display: block;
+}
+
+.wd-white {
+    color: white
+}
+
+.wd-secondary-text {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-shift {
+    left: 16px;
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.wd-shift-content-right {
+    left: 76px;
+    right: 12px;
+    position: absolute;
+    float: left;
+    max-width: 506px;
+}
+
+.wd-round-top-corners {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.wd-round-bottom-corners {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+
+.wd-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    float: left;
+    left: 16px;
+    position: relative;
+    object-fit: cover;
+}
+
+.wd-silent-link {
+    text-decoration: none;
+}
+
+.wd-big-image-content {
+    width: 504px;
+    height: 264px;
+}
+
+.wd-big-image {
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.wd-pad-small {
+    padding: 12px;
+}
+
+
+.wd-pad-right-small {
+    padding-right: 12px;
+}
+
+
+.wd-red {
+    color: red;
+}
+
+.wd-spacing {
+    margin-top: 500px;
+}
+
+.body-size {
+    height: 1040px;
+}

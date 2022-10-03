@@ -1,33 +1,28 @@
-.wd-body {
-    background-color: black;
-    max-width: 600px;
-}
-
-.wd-shift-from-left {
-    left: 12px;
-    position: relative;
-    color: white;
-}
-
 .wd-search-bar {
-    background-color: darkgray;
+    background-color: rgb(47, 51, 54);
     height: 20px;
     width: 450px;
     border-width: 0;
     text-indent: 4px;
 }
 
-.wd-round-corners {
-    border-radius: 10px;
+.wd-head-row {
+    margin-top: 12px;
 }
 
 .wd-link {
     font-size: 15px;
     margin: 16px;
+    margin-bottom: 0;
     padding-bottom: 12px;
     display: inline-block;
     text-decoration: none;
     color: rgb(110, 118, 125)
+}
+
+.wd-blue {
+    text-decoration: none;
+    color: rgb(29, 161, 242)
 }
 
 .wd-highlighted-link {
@@ -40,14 +35,6 @@
 .wd-block {
     display: block;
     width: 400px;
-}
-
-.wd-grey {
-    color: rgb(110, 118, 125);
-}
-
-.wd-border-grey {
-    border-color: rgb(47, 51, 54)
 }
 
 .wd-text-small {
@@ -63,6 +50,11 @@
 }
 
 
+.wd-col-right {
+    float: right;
+    right: 16px;
+    position: relative;
+}
 
 .wd-gear-image {
     object-fit: cover;
@@ -70,19 +62,15 @@
     border-color: #282c34;
     border-width: 0;
     border-style: solid;
-    float: right
-}
-
-.wd-col-left {
-    float: left
-}
-
-.wd-col-right {
     float: right;
-    right: 16px;
+    position: relative;
 }
 
-.wd-float-done {
+.wd-link-holder {
     clear: both;
+    margin-bottom: 16px;
+    border-style:none;
+    border-bottom-style:solid;
+    border-radius: 1px;
 }
 
