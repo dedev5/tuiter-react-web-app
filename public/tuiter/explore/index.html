@@ -11,23 +11,80 @@
           rel="stylesheet"/>
 
 </head>
-<body class>
+<body class="wd-body">
 <div class="container">
     <div class="row">
-        <div class="col-xl-2">
-            <h3>Foo</h3>
+        <div class="col-1 col-xl-2 mt-1">
+            <div class="list-group">
+                <div class="list-group-item">
+                    <a href="../tuit.html" class="text-black  text-decoration-none">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="list-group-item">
+                    <a href="../home.html" class="text-black  text-decoration-none">
+                        <i class="fa-solid fa-house-chimney"></i> <span class="d-none d-xl-inline-block">Home</span>
+                    </a>
+                </div>
+                <div class="list-group-item active">
+                    <a href="#" class="text-black  active text-decoration-none text-white">
+                        <i class="fa-solid fa-hashtag fa-inverse"></i> <span class="d-none d-xl-inline-block">Explore</span>
+                    </a>
+                </div>
+                <div class="list-group-item">
+                    <a href="../notification.html" class="text-black  text-decoration-none">
+                        <i class="fa-solid fa-bell"></i> <span class="d-none d-xl-inline-block">Notifications</span>
+                    </a>
+                </div>
+                <div class="list-group-item">
+                    <a href="../messages.html" class="text-black  text-decoration-none">
+                        <i class="fa-solid fa-envelope"></i> <span class="d-none d-xl-inline-block">Messages</span>
+                    </a>
+                </div>
+                <div class="list-group-item">
+                    <a href="../bookmarks/index.html" class="text-black  text-decoration-none">
+                        <i class="fa-solid fa-bookmark"></i> <span class="d-none d-xl-inline-block">Bookmarks</span>
+                    </a>
+                </div>
+                <div class="list-group-item">
+                    <a href="../lists.html" class="text-black  text-decoration-none">
+                        <i class="fa-solid fa-list-ul"></i> <span class="d-none d-xl-inline-block">Lists</span>
+                    </a>
+                </div>
+                <div class="list-group-item">
+                    <a href="../profile.html" class="text-black  text-decoration-none">
+                        <i class="fa-solid fa-user"></i> <span class="d-none d-xl-inline-block">Profile</span>
+                    </a>
+                </div>
+                <div class="list-group-item ">
+                    <a href="https://en.wikipedia.org/wiki/Dune_(novel)" class="text-black list-group-item-action text-decoration-none">
+                        <span class="fa-stack fa-1x stacked-icon">
+                            <i class="fa-solid fa-circle fa-stack-1x"></i>
+                            <i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse"></i>
+                        </span> <span class="d-none d-xl-inline-block">More</span>
+                    </a>
+
+                </div>
+
+
+            </div>
+            <button class="w-100 btn btn-primary rounded-pill float-right">Tuit</button>
+
+
+
+
         </div>
-        <div class="col-xl-8">
+        <div class="col-11 col-lg-8 col-xl-7">
             <div class="d-flex m-2">
                 <div class="flex-fill position-relative">
                     <input type="text" class="rounded-pill border-1 w-100 ps-4" placeholder="Search Tuiter">
-                    <a href="explore-settings.html">
+                    <a href="explore-settings.html" class="text-black">
                         <i class="position-absolute fa-solid fa-magnifying-glass top-0 start-0 p-2"></i>
                     </a>
                 </div>
 
                 <a href="explore-settings.html" class="ps-2">
-                    <i class="fa-solid fa-gear wd-blue"></i>
+                    <i class="fa-solid fa-gear fa-2x"></i>
                 </a>
             </div>
             <ul class="nav nav-tabs">
@@ -41,90 +98,180 @@
                     <a class="nav-link" href="news.html">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="sports.html" tabindex="-1">Sports</a>
+                    <a class="nav-link" href="sports.html" tabindex="-1">Sports</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="entertainment.html" tabindex="-1">Entertainment</a>
+                    <a class="nav-link d-none d-sm-none d-md-flex" href="entertainment.html" tabindex="-1">Entertainment</a>
                 </li>
             </ul>
+            <div class="position-relative">
+                <image class="img-fluid" src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg"></image>
+                <span class="position-absolute bottom-0 start-0 text-white h3 ps-2">SpaceX's Starship</span>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div class="">
+                            <span class="text-muted">
+                                Web Development
+                            </span><br/>
+                            <strong>ReactJS <i class="fa-solid fa-circle-check"></i></strong>
+                            <span class="text-muted">
+                                - 2h
+                            </span><br/>
+                            <strong>ReactJS is a component based front end library that makes it very easy to build Single Pane Applications, or SPAs</strong>
+                        </div>
+                        <div class="">
+                            <image width="96px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/240px-React-icon.svg.png"></image>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div class="">
+                            <strong>JavaScript <i class="fa-solid fa-circle-check"></i></strong>
+                            <span class="text-muted">
+                                - 2h
+                            </span><br/>
+                            <strong>Java Script is a programming language that can run on browsers as well as desktops</strong>
+                            <br/>
+                            <span class="text-muted">
+                                123K Tuits
+                            </span>
+                        </div>
+                        <div class="">
+                            <image width="96px" class="rounded-5 override-bs" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png?20120221235433"></image>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div class="">
+                            <span class="text-muted">
+                                Web Development
+                            </span><br/>
+                            <strong>JQuery</strong>
+                            <br/>
+                            <span class="text-muted">
+                                123K Tuits
+                            </span>
+                        </div>
+                        <div class="">
+                            <image width="96px" class="rounded-5 override-bs" src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"></image>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div class="">
+                            <span class="text-muted">
+                                Web Development
+                            </span><br/>
+                            <strong>NodeJS <i class="fa-solid fa-circle-check"></i></strong>
+                            <span class="text-muted">
+                                - 2h
+                            </span><br/>
+
+                            <span class="text-muted">
+                                123K Tuits
+                            </span>
+                        </div>
+                        <div class="">
+                            <image width="96px" class="rounded-5 override-bs" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"></image>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
-        <div class="col-xl-2">
-            <h3>Foo</h3>
+
+
+
+        <div class="d-none d-lg-block d-xl-block col-lg-3 col-xl-3 mt-1">
+            <div class="list-group">
+                <div class="list-group-item text-black list-group-item-action">
+                    Who to follow
+                </div>
+                <div class="list-group-item">
+                    <div class="row align-items-center justify-content-between overflow-visible">
+                        <div class="d-flex col-8">
+                            <image width="48px" height="48px" class="rounded-circle wd-crop-img-top"
+                                   src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png"></image>
+                            <div class="flex-column ps-2">
+                                <div class="wd-thick wd-small">Java <i class="fa-solid fa-circle-check"></i></div>
+                                <div class="text-muted wd-small">@java</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn-sm btn-primary rounded-pill float-end">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="d-flex col-8">
+                            <image width="48px" height="48px" class="rounded-circle wd-crop-img-top"
+                                   src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/j3dbh6kok0dket3uz2vy"></image>
+                            <div class="flex-column ps-2">
+                                <div class="wd-thick wd-small">Relativity Space <i class="fa-solid fa-circle-check"></i></div>
+                                <div class="text-muted wd-small">@relativityspace</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn-sm btn-primary rounded-pill float-end">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="d-flex col-8">
+                            <image width="48px" height="48px" class="rounded-circle"
+                                   src="https://cdn.worldvectorlogo.com/logos/virgin-1.svg"></image>
+                            <div class="flex-column ps-2">
+                                <div class="wd-thick wd-small">Virgin Galactic <i class="fa-solid fa-circle-check"></i></div>
+                                <div class="text-muted wd-small">@virgingalactic</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn-sm btn-primary rounded-pill float-end">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="d-flex col-8">
+                            <image width="48px" height="48px" class="rounded-circle"
+                                   src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"></image>
+                            <div class="flex-column ps-2">
+                                <div class="wd-thick wd-small">Nasa <i class="fa-solid fa-circle-check"></i></div>
+                                <div class="text-muted wd-small">@NASA</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn-sm btn-primary rounded-pill float-end">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="d-flex col-8">
+                            <image width="48px" height="48px" class="rounded-circle wd-crop-img-top"
+                                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/218px-Tesla_Motors.svg.png"></image>
+                            <div class="flex-column ps-2">
+                                <div class="wd-thick wd-small">Tesla <i class="fa-solid fa-circle-check"></i></div>
+                                <div class="text-muted wd-small">@Tesla</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn-sm btn-primary rounded-pill float-end">Follow</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-
-
-    <!-- USE FONT AWESOME FOR THE SYMBOLS
-
-    <div class="wd-link-holder wd-border-grey">
-        <a class="wd-link wd-highlighted-link" href="index.html">For you</a>
-        <a class="wd-link" href="index.html">Trending</a>
-        <a class="wd-link" href="index.html">Covid-19</a>
-        <a class="wd-link" href="index.html">News</a>
-        <a class="wd-link" href="index.html">Sports</a>
-        <a class="wd-link" href="index.html">Entertainment</a>
-    </div>
-
-
-
-    <div class="wd-text-content wd-shift-from-left">
-        <text class=" wd-block wd-grey wd-text-small">Trending in Weather</text>
-        <text class="wd-block">Hurricane Ian Slams into Florida</text>
-        <text class="wd-block wd-grey wd-text-small">11.2M Tuits</text>
-    </div>
-
-    <div class="wd-text-content wd-shift-from-left">
-        <text class="wd-block wd-grey wd-text-small">Technology - Trending</text>
-        <text class="wd-block">Intel 13th gen</text>
-        <text class="wd-block wd-grey wd-text-small">57K Tuits</text>
-    </div>
-
-    <hr class="wd-border-grey"/>
-    <div class="wd-article-content">
-        <div class="wd-col-left wd-shift-from-left">
-            <text class="wd-text-small">Programming Trenches News</text>
-            <text class="wd-grey wd-text-small"> · today</text>
-            <text class="wd-block">Man question beliefs, reality after successfully implementing 'float' option in CSS</text>
-        </div>
-        <img class = "wd-col-right wd-round-corners"
-             height=100px
-             width=100px
-             src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info.png"/><br>
-    </div>
-
-    <hr class="wd-border-grey"/>
-    <div class="wd-article-content">
-        <div class="wd-col-left wd-shift-from-left">
-            <text class="wd-text-small">□ The New Husky Clock</text>
-            <text class="wd-grey wd-text-small"> · yesterday</text>
-            <text class="wd-block">Horrifying: Billions of devices run Java, Oracle Claims</text>
-        </div>
-        <img class = "wd-col-right wd-round-corners"
-             height=100px
-             width=100px
-             src="https://www.webopedia.com/wp-content/uploads/1997/02/Webo.OracleProfile.png"/><br>
-    </div>
-
-    <hr class="wd-border-grey"/>
-    <div class="wd-article-content">
-        <div class="wd-col-left wd-shift-from-left">
-            <text class="wd-grey wd-text-small">War in Ukraine · LIVE </text>
-            <text class="wd-block">Ukraine Takes Control of Lyman, Days after Putin Claimed Russia Rules There</text>
-        </div>
-        <img class = "wd-col-right wd-round-corners"
-             height=100px
-             width=100px
-             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/2022_Russian_invasion_of_Ukraine.svg/440px-2022_Russian_invasion_of_Ukraine.svg.png"/><br>
-    </div>
-    <hr class="wd-border-grey"/>
-
-    <div class="wd-text-content wd-shift-from-left">
-        <text class=" wd-block wd-grey wd-text-small">Trending in Real Life</text>
-        <text class="wd-block">Nord Stream Pipe Damaged, Potential Sabotage</text>
-        <text class="wd-block wd-grey wd-text-small">6.27M Tuits</text>
-    </div>
-
-    -->
 </div>
 
 </body>

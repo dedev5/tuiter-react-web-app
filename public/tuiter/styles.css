@@ -1,6 +1,15 @@
 .wd-body {
-    max-width: 800px;
+    max-width: 1400px;
+    font-family: sans-serif;
+}
 
+.wd-thick {
+    font-weight: bold;
+
+}
+
+.wd-small {
+    font-size: 16px;
 }
 
 .wd-shift-from-left{
@@ -9,7 +18,7 @@
     color: white;
 }
 
-.wd-round-corners {
+.rounded-5.override-bs {
     border-radius: 10px;
 }
 
