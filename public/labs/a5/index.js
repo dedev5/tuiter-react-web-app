@@ -114,6 +114,7 @@ stringArray1.push('string3');
 numberArray1.splice(2, 1);
 stringArray1.splice(1, 1);
 
+
 console.log(numberArray1);
 console.log(stringArray1);
 

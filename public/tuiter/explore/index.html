@@ -4,93 +4,128 @@
     <meta charset="UTF-8">
     <title>Explore</title>
     <script src="https://kit.fontawesome.com/5921465295.js" crossorigin="anonymous"></script>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="../styles.css"
           rel="stylesheet"/>
     <link href="index.css"
           rel="stylesheet"/>
+
 </head>
-<body class="wd-body">
-<!-- USE FONT AWESOME FOR THE SYMBOLS-->
-<div class="wd-head-row">
-    <div class="wd-col-left">
-        <input type="text" class="wd-round-corners wd-search-bar wd-shift-from-left" placeholder="Search Tuiter">
+<body class>
+<div class="container">
+    <div class="row">
+        <div class="col-xl-2">
+            <h3>Foo</h3>
+        </div>
+        <div class="col-xl-8">
+            <div class="d-flex m-2">
+                <div class="flex-fill position-relative">
+                    <input type="text" class="rounded-pill border-1 w-100" placeholder="Search Tuiter">
+                    <a href="explore-settings.html">
+                        <i class="position-absolute fa-solid fa-magnifying-glass top-0 start-0 p-2"></i>
+                    </a>
+                </div>
+
+                <a href="explore-settings.html" class="ps-2">
+                    <i class="fa-solid fa-gear wd-blue"></i>
+                </a>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="for-you.html">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="sports.html" tabindex="-1">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="entertainment.html" tabindex="-1">Entertainment</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xl-2">
+            <h3>Foo</h3>
+        </div>
     </div>
 
-    <a href="explore-settings.html" class="wd-col-right">
-        <i class="fa-solid fa-gear wd-blue"></i>
-    </a>
 
-</div>
-<div class="wd-link-holder wd-border-grey">
-    <a class="wd-link wd-highlighted-link" href="index.html">For you</a>
-    <a class="wd-link" href="index.html">Trending</a>
-    <a class="wd-link" href="index.html">Covid-19</a>
-    <a class="wd-link" href="index.html">News</a>
-    <a class="wd-link" href="index.html">Sports</a>
-    <a class="wd-link" href="index.html">Entertainment</a>
-</div>
+    <!-- USE FONT AWESOME FOR THE SYMBOLS
 
-
-
-<div class="wd-text-content wd-shift-from-left">
-    <text class=" wd-block wd-grey wd-text-small">Trending in Weather</text>
-    <text class="wd-block">Hurricane Ian Slams into Florida</text>
-    <text class="wd-block wd-grey wd-text-small">11.2M Tuits</text>
-</div>
-
-<div class="wd-text-content wd-shift-from-left">
-    <text class="wd-block wd-grey wd-text-small">Technology - Trending</text>
-    <text class="wd-block">Intel 13th gen</text>
-    <text class="wd-block wd-grey wd-text-small">57K Tuits</text>
-</div>
-
-<hr class="wd-border-grey"/>
-<div class="wd-article-content">
-    <div class="wd-col-left wd-shift-from-left">
-        <text class="wd-text-small">Programming Trenches News</text>
-        <text class="wd-grey wd-text-small"> · today</text>
-        <text class="wd-block">Man question beliefs, reality after successfully implementing 'float' option in CSS</text>
+    <div class="wd-link-holder wd-border-grey">
+        <a class="wd-link wd-highlighted-link" href="index.html">For you</a>
+        <a class="wd-link" href="index.html">Trending</a>
+        <a class="wd-link" href="index.html">Covid-19</a>
+        <a class="wd-link" href="index.html">News</a>
+        <a class="wd-link" href="index.html">Sports</a>
+        <a class="wd-link" href="index.html">Entertainment</a>
     </div>
-    <img class = "wd-col-right wd-round-corners"
-         height=100px
-         width=100px
-         src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info.png"/><br>
-</div>
 
-<hr class="wd-border-grey"/>
-<div class="wd-article-content">
-    <div class="wd-col-left wd-shift-from-left">
-        <text class="wd-text-small">□ The New Husky Clock</text>
-        <text class="wd-grey wd-text-small"> · yesterday</text>
-        <text class="wd-block">Horrifying: Billions of devices run Java, Oracle Claims</text>
+
+
+    <div class="wd-text-content wd-shift-from-left">
+        <text class=" wd-block wd-grey wd-text-small">Trending in Weather</text>
+        <text class="wd-block">Hurricane Ian Slams into Florida</text>
+        <text class="wd-block wd-grey wd-text-small">11.2M Tuits</text>
     </div>
-    <img class = "wd-col-right wd-round-corners"
-         height=100px
-         width=100px
-         src="https://www.webopedia.com/wp-content/uploads/1997/02/Webo.OracleProfile.png"/><br>
-</div>
 
-<hr class="wd-border-grey"/>
-<div class="wd-article-content">
-    <div class="wd-col-left wd-shift-from-left">
-        <text class="wd-grey wd-text-small">War in Ukraine · LIVE </text>
-        <text class="wd-block">Ukraine Takes Control of Lyman, Days after Putin Claimed Russia Rules There</text>
+    <div class="wd-text-content wd-shift-from-left">
+        <text class="wd-block wd-grey wd-text-small">Technology - Trending</text>
+        <text class="wd-block">Intel 13th gen</text>
+        <text class="wd-block wd-grey wd-text-small">57K Tuits</text>
     </div>
-    <img class = "wd-col-right wd-round-corners"
-         height=100px
-         width=100px
-         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/2022_Russian_invasion_of_Ukraine.svg/440px-2022_Russian_invasion_of_Ukraine.svg.png"/><br>
+
+    <hr class="wd-border-grey"/>
+    <div class="wd-article-content">
+        <div class="wd-col-left wd-shift-from-left">
+            <text class="wd-text-small">Programming Trenches News</text>
+            <text class="wd-grey wd-text-small"> · today</text>
+            <text class="wd-block">Man question beliefs, reality after successfully implementing 'float' option in CSS</text>
+        </div>
+        <img class = "wd-col-right wd-round-corners"
+             height=100px
+             width=100px
+             src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info.png"/><br>
+    </div>
+
+    <hr class="wd-border-grey"/>
+    <div class="wd-article-content">
+        <div class="wd-col-left wd-shift-from-left">
+            <text class="wd-text-small">□ The New Husky Clock</text>
+            <text class="wd-grey wd-text-small"> · yesterday</text>
+            <text class="wd-block">Horrifying: Billions of devices run Java, Oracle Claims</text>
+        </div>
+        <img class = "wd-col-right wd-round-corners"
+             height=100px
+             width=100px
+             src="https://www.webopedia.com/wp-content/uploads/1997/02/Webo.OracleProfile.png"/><br>
+    </div>
+
+    <hr class="wd-border-grey"/>
+    <div class="wd-article-content">
+        <div class="wd-col-left wd-shift-from-left">
+            <text class="wd-grey wd-text-small">War in Ukraine · LIVE </text>
+            <text class="wd-block">Ukraine Takes Control of Lyman, Days after Putin Claimed Russia Rules There</text>
+        </div>
+        <img class = "wd-col-right wd-round-corners"
+             height=100px
+             width=100px
+             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/2022_Russian_invasion_of_Ukraine.svg/440px-2022_Russian_invasion_of_Ukraine.svg.png"/><br>
+    </div>
+    <hr class="wd-border-grey"/>
+
+    <div class="wd-text-content wd-shift-from-left">
+        <text class=" wd-block wd-grey wd-text-small">Trending in Real Life</text>
+        <text class="wd-block">Nord Stream Pipe Damaged, Potential Sabotage</text>
+        <text class="wd-block wd-grey wd-text-small">6.27M Tuits</text>
+    </div>
+
+    -->
 </div>
-<hr class="wd-border-grey"/>
-
-<div class="wd-text-content wd-shift-from-left">
-    <text class=" wd-block wd-grey wd-text-small">Trending in Real Life</text>
-    <text class="wd-block">Nord Stream Pipe Damaged, Potential Sabotage</text>
-    <text class="wd-block wd-grey wd-text-small">6.27M Tuits</text>
-</div>
-
-
-
 
 </body>
 </html>

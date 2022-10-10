@@ -1,10 +1,5 @@
 .wd-body {
-    background-color: black;
-    max-width: 600px;
-    border-width: 1px;
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-    font-family: sans-serif;
+    max-width: 800px;
 
 }
 
@@ -17,6 +12,8 @@
 .wd-round-corners {
     border-radius: 10px;
 }
+
+
 
 
 
