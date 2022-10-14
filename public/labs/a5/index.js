@@ -66,7 +66,7 @@ if(!false1) {
 }
 
 console.log('Ternary conditional operator');
-const loggedIn = true;
+let loggedIn = true;
 const greeting = loggedIn ? 'Welcome!' : 'Please login';
 console.log(greeting)
 
@@ -153,3 +153,48 @@ console.log(numbersGreaterThan2);
 
 console.log(evenNumbers);
 console.log(oddNumbers);
+
+const five = 2 + 3;
+const result1 = "2 + 3 = " + five;
+console.log(result1);
+
+const result2 = `2 + 3 = ${2 + 3}`;
+console.log(result2);
+
+const username = "alice";
+const greeting1 = `Welcome home ${username}`;
+console.log(greeting1);
+
+loggedIn = false;
+const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
+console.log(greeting2)
+
+const init = () => {
+    console.log('Hello world from jQuery');
+   s /* do the rest of the lab work here */
+}
+$(init);
+
+const bindById = $('#bind-by-id');
+const bindByClass = $('.bind-by-class');
+console.log('Binding to DOM');
+console.log(bindById);
+console.log(bindByClass);
+
+const changeStyle = $('#change-style');
+const changeStyle2 = $('.change-style');
+changeStyle.css('color', 'red');
+changeStyle2.css('color', 'blue');
+
+const getIdAttr = $("#get-id-attr");
+const id = getIdAttr.attr('id');
+console.log(id);
+
+const setClassAttr = $("#set-class-attr");
+setClassAttr.attr('class', 'class-0');
+
+const addClass1Example = $("#add-class-1");
+addClass1Example.addClass('class-1');
+
+const removeClass1Example = $("#remove-class-1");
+removeClass1Example.removeClass('class-2');
