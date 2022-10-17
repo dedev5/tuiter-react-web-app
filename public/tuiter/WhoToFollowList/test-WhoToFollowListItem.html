@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/5921465295.js" crossorigin="anonymous"></script>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+</head>
+<body>
+<script src="index.js" type="module"></script>
+<script type="module" src="WhoToFollowListItem.js"></script>
+<div class="container" id="wd-test"></div>
+
+<script type="module">
+    import WhoToFollowListItem from './WhoToFollowListItem.js';
+    const who = {
+        avatarIcon: 'tesla.png',
+        userName: 'Virgin Galactic',
+        handle: 'virgingalactic',
+    };
+    $('#wd-test').append(`<div class="list-group">${WhoToFollowListItem(who)}</div>`);
+</script>
+
+</body>
+</html>
