@@ -6,14 +6,13 @@ const ExploreComponent = () => {
                        <div class="d-flex m-2">
                 <div class="flex-fill position-relative">
                     <input type="text" class="rounded-pill border-1 w-100 ps-4 bg-white text-black" placeholder="Search Tuiter">
-                    <a href="explore-settings.html" class="text-black">
+                    <a href="/" class="text-black">
                         <i class="position-absolute fa-solid fa-magnifying-glass top-0 start-0 p-2"></i>
                     </a>
                 </div>
 
-                <a href="explore-settings.html" class="ps-2">
                     <i class="fa-solid fa-gear fa-2x"></i>
-                </a>
+
             </div>
            </div>
            <ul class="nav mb-2 nav-tabs">
