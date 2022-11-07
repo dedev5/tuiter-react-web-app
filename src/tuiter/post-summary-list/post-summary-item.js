@@ -1,53 +1,22 @@
 import React from "react";
-const fill_if_exists = (item, result) => {
-    if (item === '') {
-        console.log(item + " Was missing")
-        return ''
 
-    }
-    else {
-        console.log("Yep")
-        console.log(result)
-        return result;
-
-    }
-};
-
-const PostSummaryItem = (
-    {
-        post = {
-            "topic": "Space",
-            "userName": "SpaceX",
-            "time": "2h",
-            "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-            "image": "relativity.png"
-        }
-
-    }
-) => {
+const PostSummaryItem = (x) => {
+    const post = x.post
     return (
-    <div className="list-group-item">
-        <div className="d-flex flex-row justify-content-between">
-            <div className="">
-                {fill_if_exists(post.topic,[<span className="text-muted">{post.topic}</span>,<br/>])}
+        <div className="list-group-item">
+            <div className="d-flex flex-row justify-content-between">
+                <div>
+                    <span className="text-muted">{post.topic} . {post.time}</span>
+                    <br/>
+                    <span> <strong>{post.userName} </strong> </span>
+                    <br/>
+                    {post.title}
+                </div>
+                <img className="rounded-3 wd-full-width" alt={""} width="96px" height="96px" src={`/images/${post.image}`}></img>
 
-                {fill_if_exists(post.userName,
-                <strong>{post.userName} </strong>)}
-                {fill_if_exists(post.time,
-                    [<i className="fa-solid fa-circle-check"></i>,<span className="text-muted"> - {post.time}</span>]
-                    )}
-                {fill_if_exists(post.title,
-                [<br/>,<strong>{post.title}</strong>])}
-                {fill_if_exists(post.tweets,
-                [<br/>,<span className="text-muted">
-                        {post.tweets}
-                   </span>])}
-            </div>
-            <div className="">
-                <img className="rounded-3" alt={""} width="96px" src={`/images/${post.image}`}></img>
+
             </div>
         </div>
-    </div>
-        );
+    );
 };
 export default PostSummaryItem;
