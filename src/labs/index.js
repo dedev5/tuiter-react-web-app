@@ -8,7 +8,9 @@ function Labs() {
         <div>
             <Nav/>
             <Routes>
-                <Route index element={"This is the index page. Please select the assignment using the above links. Note that tuiter have the links, use the back arrow to return here"}/>
+                <Route index element={"This is the index page. Please select the assignment using the above links. Note that tuiter have the links, use the back arrow to return here. IMPORTANT NOTE: refreshing tuiter takes you tuiter/home.html" +
+                    "I am not sure why this is happening, I tired creating a _redirects but it did not fix. Please use the back arrow" +
+                    "if you want to refresh your page."}/>
                 <Route path="a6"
                        element={<Assignment6/>}/>
                 <Route path="a7"
