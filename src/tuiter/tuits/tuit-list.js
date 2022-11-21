@@ -11,6 +11,7 @@ const TuitsList = () => {
         state => state.tuitsData)
     const dispatch = useDispatch();
     useEffect(() => {
+        // eslint-disable-next-line
         dispatch(findTuitsThunk())
     }, [])
 
