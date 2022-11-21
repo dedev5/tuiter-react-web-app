@@ -10,7 +10,8 @@ const TuitsList = () => {
     const {tuits, loading} = useSelector(
         state => state.tuitsData)
     const dispatch = useDispatch();
-    useEffect(() => {
+    // eslint-disable-next-line
+    useEffect(() => { //eslint-disable-line react-hooks/exhaustive-deps
         // eslint-disable-next-line
         dispatch(findTuitsThunk())
     }, [])
