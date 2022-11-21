@@ -8,7 +8,7 @@ const NavigationSidebar = () => {
     return (
         <div className="list-group">
             <Link to="/" className="list-group-item">Tuiter</Link>
-            <Link to="/tuiter/home" className={`list-group-item
+            <Link to="/tuiter" className={`list-group-item
                     ${active === 'home'?'active':''}`}>
                 Home
             </Link>
